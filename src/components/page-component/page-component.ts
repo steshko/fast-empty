@@ -4,7 +4,5 @@ import styles from './page-component.styles';
 
 const name = 'page-component';
 
-@customElement({name, template, styles})
-export class PageComponent extends FASTElement {
-
-}
+@customElement({ name, template, styles })
+export class PageComponent extends FASTElement {}
