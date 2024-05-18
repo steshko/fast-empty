@@ -26,7 +26,10 @@ module.exports = (env, { mode }) => ({
         use: 'ts-loader',
         exclude: /(node_modules)/
       },
-    ]
+    ],
+  },
+  resolve: {
+    extensions: ['.ts', '.js', '.json']
   },
   plugins: [
     new HtmlWebpackPlugin({
