@@ -1,5 +1,11 @@
 {
-  "ignorePatterns": ["node_modules/", "dist/", "config/", "tsconfig"],
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    "config/",
+    "tsconfig",
+    "scripts/"
+  ],
   "env": {
     "browser": true,
     "es2021": true
